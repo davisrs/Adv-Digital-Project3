@@ -23,3 +23,6 @@ update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
 import_files -norecurse {C:/Users/ulab/Desktop/Project3a/files/LUT.vhd C:/Users/ulab/Desktop/Project3a/files/address_gen.vhd C:/Users/ulab/Desktop/Project3a/files/btn_debounce_toggle.vhd C:/Users/ulab/Desktop/Project3a/files/clk_enabler.vhd C:/Users/ulab/Desktop/Project3a/files/display_cycle.vhd}
 update_compile_order -fileset sources_1
+launch_runs synth_1
+[Mon Oct 13 19:03:02 2014] Launched synth_1...
+Run output will be captured here: I:/Adv Digital/NewP3/project3/project3.runs/synth_1/runme.log

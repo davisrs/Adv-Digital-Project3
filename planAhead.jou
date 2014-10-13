@@ -15,3 +15,5 @@ update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
 import_files -norecurse {C:/Users/ulab/Desktop/Project3a/files/LUT.vhd C:/Users/ulab/Desktop/Project3a/files/address_gen.vhd C:/Users/ulab/Desktop/Project3a/files/btn_debounce_toggle.vhd C:/Users/ulab/Desktop/Project3a/files/clk_enabler.vhd C:/Users/ulab/Desktop/Project3a/files/display_cycle.vhd}
 update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
