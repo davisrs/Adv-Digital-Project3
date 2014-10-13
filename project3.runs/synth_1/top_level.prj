@@ -1,0 +1,4 @@
+vhdl work "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd"
+vhdl work "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/clk_enabler.vhd"
+vhdl work "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/btn_debounce_toggle.vhd"
+vhdl work "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/top_level.vhd"

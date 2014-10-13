@@ -21,6 +21,9 @@ architecture behv of display_cycle is
 
 --Can't use just the upper three bits, since they do not count in the correct sequence.
 -- 000 001 010 011* 100 101* 110* 111
+
+--Ian, I beleive That is because you should use the first 4 bits  --Rich
+
 signal count	:integer range 0 to count_max;--An integer that can range from 0 to whatever count_max is defined as.
 											  --count_max can be adjusted to change the rate at which the LED displays
 											  --are refreshed. A higher count_max results in a longer refresh time.
@@ -35,7 +38,7 @@ o_7segment_an <= "0001";-- Initially set the output bits to "0001".
 			--If the count = count_max then shift the output bits by 1 to the left and reset count to 0.
 			--else increment count.
 			if(count = count_max)then
-				o_7segment_an <= shift_left(o_7segment_an);
+				o_7segment_an <= shift_left(o_7segment_an); --Ian where did you find shift_left
 				count <= 0;
 				
 				--If the output bits = "000" then reset them to be "001".

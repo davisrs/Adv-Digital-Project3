@@ -1,0 +1,24 @@
+
+*** Running xst
+    with args -ifn "top_level.xst" -ofn "top_level.srp" -intstyle ise
+
+Reading design: top_level.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd" into library work
+Parsing entity <display_cycle>.
+Parsing architecture <behv> of entity <display_cycle>.
+ERROR:HDLCompiler:841 - "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd" Line 41: Expecting type std_logic_vector for <shift_left>.
+ERROR:HDLCompiler:288 - "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd" Line 45: Cannot read from 'out' object o_7segment_an ; use 'buffer' or 'inout'
+ERROR:HDLCompiler:854 - "I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd" Line 20: Unit <behv> ignored due to previous errors.
+VHDL file I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd ignored due to errors
+--> 
+
+Total memory usage is 182032 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

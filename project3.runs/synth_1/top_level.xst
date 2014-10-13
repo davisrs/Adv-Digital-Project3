@@ -1,0 +1,9 @@
+set -loop_iteration_limit 1000
+run
+-ifn top_level.prj
+-top top_level
+-p xc7a100tcsg324-1
+-ofn top_level.ngc
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

@@ -1,0 +1,9 @@
+http://stackoverflow.com/questions/1628088/how-to-reset-my-local-repository-to-be-just-like-the-remote-repository-head
+http://forums.xilinx.com/t5/Design-Tools-Others/ERROR-Xst-2793-Top-module-lt-xxx-vhd-gt-specified-via-the-top/td-p/301699
+http://www.gmvhdl.com/process.htm
+http://lifehacker.com/5983680/how-the-heck-do-i-use-github
+http://msysgit.github.io/
+
+[HDLCompiler 841] Expecting type std_logic_vector for <shift_left>. ["I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd":41]
+[HDLCompiler 288] Cannot read from 'out' object o_7segment_an ; use 'buffer' or 'inout' ["I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd":45]
+[HDLCompiler 854] Unit <behv> ignored due to previous errors. ["I:/Adv Digital/NewP3/project3/project3.srcs/sources_1/imports/files/display_cycle.vhd":20]
