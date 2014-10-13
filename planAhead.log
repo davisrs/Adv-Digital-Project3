@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Mon Oct 13 18:39:34 2014
+# Process ID: 2204
+# Log file: I:/Adv Digital/NewP3/project3/planAhead.log
+# Journal file: I:/Adv Digital/NewP3/project3\planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+open_project {I:\Adv Digital\NewP3\project3\project3.ppr}
+Scanning sources...
+Finished scanning sources
+add_files -fileset constrs_1 -norecurse C:/Users/ulab/Desktop/Project3a/files/Nexys4_Master.ucf
+import_files -fileset constrs_1 C:/Users/ulab/Desktop/Project3a/files/Nexys4_Master.ucf
+import_files -norecurse C:/Users/ulab/Desktop/Project3a/files/top_level.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+import_files -norecurse {C:/Users/ulab/Desktop/Project3a/files/LUT.vhd C:/Users/ulab/Desktop/Project3a/files/address_gen.vhd C:/Users/ulab/Desktop/Project3a/files/btn_debounce_toggle.vhd C:/Users/ulab/Desktop/Project3a/files/clk_enabler.vhd C:/Users/ulab/Desktop/Project3a/files/display_cycle.vhd}
+update_compile_order -fileset sources_1

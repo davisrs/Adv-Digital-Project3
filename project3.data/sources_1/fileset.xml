@@ -2,8 +2,60 @@
 <DARoots Version="1" Minor="26">
   <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/files/display_cycle.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/display_cycle.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/clk_enabler.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/clk_enabler.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/btn_debounce_toggle.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/btn_debounce_toggle.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/top_level.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/top_level.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/LUT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/LUT.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/address_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/ulab/Desktop/Project3a/files/address_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1413241120"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level"/>
+      <Option Name="TopLib" Val="work"/>
+      <Option Name="TopArchitecture" Val="Structural"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/imports/files/top_level.vhd"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
